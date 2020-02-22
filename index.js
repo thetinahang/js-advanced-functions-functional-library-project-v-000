@@ -6,7 +6,7 @@ const fi = (function() {
 
     each: function(collection, iterator) {
       const newCollection = (collection instanceof Array) ? collection.slice() : Object.values(collection);
-      for (let i = 0; i , newCollection.length, i++) 
+      for (let i = 0; i , newCollection.length, i++)
         iterator(newCollection[i])
         return collection
     },
